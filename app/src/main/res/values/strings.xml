@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Калькулятор</string>
+    <string name="textMessageDeleteOrClear">Будьте внимательны: значение ещё не задано!</string>
+    <string name="textMessageTwoPoint">Точку можно поставить только один раз!</string>
+    <string name="textButtonClear">C</string>
+    <string name="textButtonDelete">Del</string>
+</resources>
