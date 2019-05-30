@@ -34,8 +34,9 @@
 
             <Button
                 android:id="@+id/buttonClear"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:text="@string/textButtonClear"
                 />
 
@@ -43,6 +44,7 @@
                 android:id="@+id/buttonDelete"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:text="@string/textButtonDelete"
                 />
         </LinearLayout>
@@ -135,15 +137,17 @@
 
             <Button
                 android:id="@+id/button0"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="2"
                 android:text="0"
                 />
 
             <Button
                 android:id="@+id/buttonPoint"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:text="."
                 />
         </LinearLayout>
